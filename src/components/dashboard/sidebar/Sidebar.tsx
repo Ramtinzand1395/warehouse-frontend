@@ -12,7 +12,7 @@ const Sidebar: React.FC = () => {
 
   return (
     <div
-      className={`h-full w-auto duration-300 flex flex-col items-center relative mx-2 ${
+      className={`h-full w-auto transition-all ease-in-out delay-300 duration-300 flex flex-col items-center relative mx-2 ${
         OpenSidebar ? "w-15 md:w-44" : "w-10"
       }`}
     >
